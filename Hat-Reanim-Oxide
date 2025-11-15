@@ -1,0 +1,39 @@
+_G.HideCharacter = true
+_G.FlingEnabled = false
+_G.TransparentRig = true
+_G.ToolFling = false -- false = holding, true = fling
+_G.AntiFling = false
+_G.CustomHats = true -- Enable or disable custom rig feature (basically old oxide when false)
+_G.CH = {
+    Torso = {
+        Name= "MeshPartAccessory",
+        TextureId = "4819722776",
+        Orientation= CFrame.Angles(math.rad(0),math.rad(0),math.rad(-105))
+    },
+ 
+    LeftArm = {
+        Name= "MeshPartAccessory",
+        TextureId = "4391374782", 
+        Orientation= CFrame.Angles(math.rad(-90),math.rad(0),math.rad(90))
+    },
+ 
+    RightArm = {
+        Name= "MeshPartAccessory",
+        TextureId = "4489233876", 
+        Orientation= CFrame.Angles(math.rad(-90),math.rad(0),math.rad(-90))
+    },
+ 
+    LeftLeg = {
+        Name= "MeshPartAccessory",
+        TextureId = "4154474807", 
+        Orientation= CFrame.Angles(math.rad(-90),math.rad(0),math.rad(90))
+    },
+ 
+    RightLeg = {
+        Name= "MeshPartAccessory",
+        TextureId = "4094881938", 
+        Orientation= CFrame.Angles(math.rad(-90),math.rad(0),math.rad(-90))
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CoolCatUser/Admin-Noli/refs/heads/main/LoadstringPerma"))()
+task.wait(.5) -- we give it time to load properly
