@@ -1,0 +1,11 @@
+local placeId = game.PlaceId
+
+if placeId == 6965006845 then
+    loadstring(game:HttpGet("https://github.com/CoolCatUser/Admin-Noli/raw/refs/heads/main/MyworldReanim"))()
+    task.wait(5)
+    loadstring(game:HttpGet("https://github.com/CoolCatUser/Admin-Noli/raw/refs/heads/main/Admin_Noli.lua"))()
+else
+    loadstring(game:HttpGet("https://github.com/CoolCatUser/Admin-Noli/raw/refs/heads/main/CurrentangleV2"))()
+    task.wait(5)
+    loadstring(game:HttpGet("https://github.com/CoolCatUser/Admin-Noli/raw/refs/heads/main/Admin_Noli.lua"))()
+end
