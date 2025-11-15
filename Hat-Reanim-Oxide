@@ -35,5 +35,5 @@ _G.CH = {
         Orientation= CFrame.Angles(math.rad(-90),math.rad(0),math.rad(-90))
     }
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CoolCatUser/Admin-Noli/refs/heads/main/LoadstringPerma"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CoolCatUser/Admin-Noli/refs/heads/main/LoadstringPerma.txt"))()
 task.wait(.5) -- we give it time to load properly
